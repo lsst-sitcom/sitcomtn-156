@@ -9,3 +9,6 @@ extensions += ['nbsphinx']
 nbsphinx_execute = 'never'
 
 exclude_patterns.append("notebooks")
+
+# myst instead  of nbsphinx
+jupyter_execute_notebooks = "off"
